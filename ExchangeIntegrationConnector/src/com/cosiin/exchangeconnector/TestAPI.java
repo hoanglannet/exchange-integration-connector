@@ -3,13 +3,13 @@ package com.cosiin.exchangeconnector;
 public class TestAPI {
 	
 	public static void main(String[] args) {
-		String exchangeURL = "https://home.bgochten.nl/EWS/Exchange.asmx";
-		String username = "ccollector";
-		String password = "B5AtL5t";
-		String domain = "rolec-bv";
+		String exchangeURL = "https://cosiin.com/EWS/Exchange.asmx";
+		String username = "tester";
+		String password = "tester";
+		String domain = "cosiin";
 		String datePattern = "yyyy-MM-dd";
 		
-		String hisSharedMailBox = "sdepartment@kgrolf.nl";
+		String hisSharedMailBox = "tester@cosiin.com";
 		String startDate = "2013-03-01";
 		String endDate = "2013-04-02";
 		
