@@ -21,17 +21,6 @@ public class TestExchangeConnector {
 	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		//String url ="https://home.bgochten.nl/EWS/Exchange.asmx";
-//		String xmlInput ="<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:typ=\"http://schemas.microsoft.com/exchange/services/2006/types\" xmlns:mes=\"http://schemas.microsoft.com/exchange/services/2006/messages\">\n" +
-//				"<soapenv:Header>" +
-//				"<typ:RequestServerVersion Version=\"Exchange2010_SP1\"/>" +
-//				"</soapenv:Header>" +
-//				"<soapenv:Body>" +
-//					"<mes:GetServerTimeZones ReturnFullTimeZoneData=\"false\">" +       
-//					"</mes:GetServerTimeZones>" +
-//				"</soapenv:Body>" +
-//				"</soapenv:Envelope>";
-		
 		
 		String xmlInput ="<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"  " +
 				 " xmlns:t=\"http://schemas.microsoft.com/exchange/services/2006/types\">" +
@@ -55,13 +44,13 @@ public class TestExchangeConnector {
 			
 		
 	  
-			Authenticator.setDefault(new ExchangeNTLMAuthenticator("rolec-bv","salesmanager","Welkom@123"));
+		Authenticator.setDefault(new ExchangeNTLMAuthenticator("cosiin","tester","tester"));
 		
 	 
 	  
 	    String responseString = "";
 	    String outputString = "";
-	    String wsURL = "https://home.bgochten.nl/EWS/Exchange.asmx";
+	    String wsURL = "https://cosiin.com/EWS/Exchange.asmx";
 	    URL url = new URL(wsURL);
 	    URLConnection connection = url.openConnection();
 	    HttpURLConnection httpConn = (HttpURLConnection)connection;
