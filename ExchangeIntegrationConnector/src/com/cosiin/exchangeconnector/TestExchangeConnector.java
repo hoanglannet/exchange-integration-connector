@@ -1,4 +1,4 @@
-package com.devinition.exchangeIntegrationConnector;
+package com.cosiin.exchangeconnector;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

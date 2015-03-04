@@ -1,4 +1,4 @@
-package com.devinition.exchangeIntegrationConnector;
+package com.cosiin.exchangeconnector;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
